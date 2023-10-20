@@ -69,7 +69,7 @@ const App = ({ Component, pageProps }: AppProps) => {
 
   return (
     <ContentfulLivePreviewProvider
-      locale={router.locale || 'en-US'}
+      locale={router.locale || 'fr-FR'}
       enableInspectorMode={pageProps.previewActive}
       enableLiveUpdates={pageProps.previewActive}>
       <ChakraProvider
